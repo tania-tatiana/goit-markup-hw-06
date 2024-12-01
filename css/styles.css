@@ -66,10 +66,18 @@ img {
 /* #endregion */
 /* #region Header */
 .address-contacts {
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #434455;
-  letter-spacing: 0.02em;
+}
+@media only screen and (min-width: 1156px) {
+  .address-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
 .address-contacts:hover,
 .address-contacts:focus {
