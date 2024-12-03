@@ -1197,6 +1197,7 @@ input[type='checkbox']:checked
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-modal-form-checkbox-text {
+  max-width: 231px;
 }
 .mobile-modal-form-checkbox-icon {
 }
