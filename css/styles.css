@@ -552,6 +552,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .portfolio-list {
+    gap: 72px 24px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -596,9 +597,6 @@ img {
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
 }
-.portfolio-wrapper {
-  overflow: hidden;
-}
 @media only screen and (min-width: 768px) {
 }
 @media only screen and (min-width: 1158px) {
@@ -609,6 +607,9 @@ img {
 }
 .portfolio-img {
   width: 100%;
+}
+.overlay {
+  display: none;
 }
 @media only screen and (min-width: 1158px) {
   .overlay {
@@ -784,6 +785,9 @@ img {
 }
 /* #endregion */
 /* #region Modal */
+.backdrop {
+  display: none;
+}
 @media only screen and (min-width: 768px) {
   .backdrop {
     position: fixed;
