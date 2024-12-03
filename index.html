@@ -815,7 +815,7 @@ for Your Business"
         </li>
       </ul>
     </div>
-    <div mobile-data-modal class="mobile-backdrop">
+    <div mobile-data-modal class="mobile-backdrop is-open">
       <div class="mobile-modal">
         <button mobile-data-modal-close type="button" class="mobile-modal-btn">
           <svg class="mobile-modal-btn-icon" width="8" height="8">
@@ -872,8 +872,11 @@ for Your Business"
               </svg>
             </div>
           </div>
-          <div class="mobile-modal-form-textatea">
-            <label for="user-comment" class="modal-form-label">Comment</label>
+
+          <div class="mobile-modal-form-wrapper">
+            <label for="user-comment" class="mobile-modal-form-label"
+              >Comment</label
+            >
             <textarea
               class="mobile-modal-form-textarea"
               name="user-comment"
@@ -899,10 +902,12 @@ for Your Business"
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="#" class="mobile-modal-form-agreement-link"
-                >Privacy Policy</a
-              >
+              <span class="mobile-modal-form-checkbox-text">
+                I accept the terms and conditions of the
+                <a href="#" class="mobile-modal-form-agreement-link"
+                  >Privacy Policy</a
+                >
+              </span>
             </label>
           </div>
           <button type="submit" class="mobile-send-button">Send</button>
@@ -910,5 +915,6 @@ for Your Business"
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
