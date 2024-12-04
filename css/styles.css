@@ -654,6 +654,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .overlay {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -692,7 +693,7 @@ img {
 }
 @media only screen and (min-width: 1158px) {
   .footer {
-    padding: 100px 0;
+    padding: 100px 35px;
   }
 }
 .footer-logo {
