@@ -910,11 +910,11 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-    .backdrop.is-open {
-      opacity: 1;
-      visibility: visible;
-      pointer-events: auto;
-    }
+  .backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
   .modal {
     position: absolute;
     top: 50%;
@@ -1285,6 +1285,16 @@ img {
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media only screen and (min-width: 768px) {
+  .mobile-backdrop {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .mobile-backdrop {
+    display: none;
+  }
 }
 .mobile-backdrop.is-open {
   opacity: 1;
