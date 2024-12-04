@@ -244,9 +244,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -266,8 +264,7 @@ img {
       url(../images/hero/Dark-bg_tab@1x.jpg);
   }
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
@@ -288,8 +285,7 @@ img {
       url(../images/hero/Dark-bg_desk@1x.jpg);
   }
 }
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
