@@ -282,7 +282,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/Dark-bg_desk@1x.jpg);
+      url(../images/hero/people-office_desk@1x.jpg);
   }
 }
 @media only screen and (min-width: 1158px) and (min-resolution: 192dpi),
@@ -292,7 +292,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/Dark-bg_desk@2x.jpg);
+      url(../images/hero/people-office_desk@2x.jpg);
   }
 }
 .hero-title {
