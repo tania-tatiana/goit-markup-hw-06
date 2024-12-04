@@ -936,6 +936,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .backdrop {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
