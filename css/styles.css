@@ -1115,6 +1115,7 @@ img {
   margin-bottom: 24px;
 }
 .modal-form-agreement-text {
+  display: flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1124,6 +1125,7 @@ img {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -1141,6 +1143,11 @@ img {
 }
 .modal-form-checkbox-text {
   max-width: 231px;
+}
+@media only screen and (min-width: 768px) {
+  .modal-form-checkbox-text {
+    min-width: 338px;
+  }
 }
 input[type='checkbox']:checked
   + .modal-form-agreement-text
